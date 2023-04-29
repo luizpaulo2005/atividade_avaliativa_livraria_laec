@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best-sellers</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,16 +16,39 @@
   </head>
   <body>
     <header>
-      <a href="./index.html">
-        <img src="./img/books.png" alt="" />
+      <a href="../index.html">
+        <img src="../img/books.png" alt="" />
       </a>
       <h2>Livraria</h2>
 
       <ul>
-        <li><a href="./best/index.html">Best-Sellers</a></li>
-        <li><a href="./jogos/index.html">Jogos</a></li>
-        <li><a href="./mangas/index.html">Mangás</a></li>
+        <li><a href="../best/index.html">Best-Sellers</a></li>
+        <li><a href="../jogos/index.html">Jogos</a></li>
+        <li><a href="../mangas/index.html">Mangás</a></li>
+        <li><a href="./index.html">Contato</a></li>
+        <li><a href="../login/index.html">Login</a></li>
       </ul>
     </header>
+
+    <main>
+      <form>
+        <fieldset>
+          <legend>Deixe sua sugestão</legend>
+          <label for="name">Nome</label>
+          <input type="text" id="name" placeholder="Digite seu nome" />
+          <label for="email" >E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" />
+          <label for="msg">Mensagem</label>
+          <textarea
+            name=""
+            id="msg"
+            cols="80"
+            rows="10"
+            placeholder="Digite sua mensagem"
+            ></textarea>
+            <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
   </body>
 </html>
