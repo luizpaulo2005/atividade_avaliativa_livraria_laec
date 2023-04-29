@@ -26,7 +26,7 @@ header img {
 
 header ul {
   position: absolute;
-  left: 1200px;
+  left: 1100px;
   top: 70px;
 }
 
@@ -41,5 +41,31 @@ header ul li a {
 }
 
 /* Main */
+
+main form fieldset {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px dotted seagreen;
+  border-radius: 5px;
+  padding: 20px 40px 20px 20px;
+}
+
+main form fieldset input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid seagreen;
+  border-radius: 5px;
+}
+
+main form fieldset button {
+  width: fit-content;
+  padding: 10px 10px;
+  background: darkolivegreen;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
 
 /* Footer */
