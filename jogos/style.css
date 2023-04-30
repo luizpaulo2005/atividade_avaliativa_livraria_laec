@@ -26,7 +26,7 @@ header img {
 
 header ul {
   position: absolute;
-  left: 1200px;
+  left: 1100px;
   top: 70px;
 }
 
@@ -41,4 +41,55 @@ header ul li a {
 }
 
 /* Main */
+
+main h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main ul {
+  margin-left: 465px;
+}
+
+main ul li {
+  padding: 5px;
+  display: inline-block;
+  width: 250px;
+  margin: 20px 18px;
+  height: 400px;
+  border: 1px solid seagreen;
+  border-radius: 5px;
+}
+
+main ul li img {
+  width: 100%;
+  height: 85%;
+}
+
+.precos {
+  margin-top: 20px;
+}
+
+main table {
+  margin-top: 20px;
+  margin-left: 510px;
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+}
+
+main table tr th, main table tr td {
+  border: 1px solid seagreen;
+  padding: 5px;
+}
+
 /* Footer */
+
+footer {
+  background: seagreen;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 45px;
+}
