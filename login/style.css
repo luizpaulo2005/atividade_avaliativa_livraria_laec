@@ -69,3 +69,12 @@ main form fieldset button {
 }
 
 /* Footer */
+
+footer {
+  background: seagreen;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 220px;
+  padding-top: 45px;
+}
